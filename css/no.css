@@ -4,6 +4,16 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+html, body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.0625em;
+  height: 100%;
+  background: #FF0000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
 
 .masthead {
   position: relative;
@@ -11,11 +21,6 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: #FF0000;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
 }
 
 @media (min-width: 992px) {
@@ -27,7 +32,7 @@
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
+  /* padding: 1.25rem 2rem; */
   font-family: 'Roboto', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
@@ -53,11 +58,6 @@
 
 .btn-primary:active {
   background-color: rgb(217, 86, 55) !important;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.0625em;
 }
 
 a {
