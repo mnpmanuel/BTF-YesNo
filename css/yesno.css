@@ -1,6 +1,6 @@
 /*!
- * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
+ * Webiste created by Manuel Palmeira (http://manuelpalmeira.xyz) using Twitter Bootstrap as a base.
+ * Project while working for imatch for use as an interaction with participants during Building the Future (https://buildingthefuture.pt)
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -17,7 +17,9 @@ html, body {
 }
 
 canvas{
-  position:absolute;top:0;left:0
+  position:absolute;
+  top:0;
+  left:0;
   background-image: linear-gradient(bottom, rgb(217, 86, 55) 0%, rgb(42, 55, 167) 84%);
   background-image: -o-linear-gradient(bottom, rgb(217, 86, 55) 0%, rgb(42, 55, 167) 84%);
   background-image: -moz-linear-gradient(bottom, rgb(217, 86, 55) 0%, rgb(42, 55, 167) 84%);
@@ -32,11 +34,6 @@ canvas{
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  /* background: linear-gradient(to bottom, rgb(42, 55, 167), rgb(217, 86, 55));
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover; */
 }
 
 @media (min-width: 992px) {
